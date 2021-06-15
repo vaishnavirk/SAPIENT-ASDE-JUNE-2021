@@ -1,0 +1,82 @@
+<mxfile>
+    <diagram id="Z1eLZQwrw43iSeNNv82h" name="Page-1">
+        <mxGraphModel dx="833" dy="508" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="4" target="6">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="maven&amp;nbsp;&lt;br&gt;lifecycle" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="130" y="150" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="6" target="7">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="Phases" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="240" y="250" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="Goals" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="360" y="360" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="host os (windows/macos/linux)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="120" y="700" width="400" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="hardware" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="120" y="760" width="400" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="docker daemon/server/engine&lt;br&gt;(linux kernel)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+                    <mxGeometry x="120" y="640" width="230" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="CPU" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="120" y="800" width="80" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="RAM" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="200" y="800" width="80" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="I/O" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="280" y="800" width="80" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="NETWORK" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="360" y="800" width="80" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="STORAGE" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="440" y="800" width="80" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="mysql program files&lt;br&gt;+&lt;br&gt;some linux utitlities" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="580" y="410" width="170" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="app.jar&lt;br&gt;+&lt;br&gt;JDK (293.9MB)&lt;br&gt;+&lt;br&gt;Ubuntu (300+MB)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+                    <mxGeometry x="580" y="560" width="170" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="startup command:&lt;br&gt;java -jar xxx.jar" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+                    <mxGeometry x="580" y="510" width="170" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="busybox:&lt;br&gt;basic linux utilities like&lt;br&gt;cal, ls, cat, sh, bash, vi, ping" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="360" y="530" width="180" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="startup command:&lt;br&gt;&amp;lt;none&amp;gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="360" y="460" width="180" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="&lt;h1&gt;Docker terminologies:&lt;/h1&gt;&lt;div&gt;1. Docker client --&amp;gt; the command &quot;docker&quot;&lt;/div&gt;&lt;div&gt;2. Docker daemon/server/engine --&amp;gt; a background process to deal with images and containers and networks etc&lt;/div&gt;&lt;div&gt;3. Docker image --&amp;gt; a logical grouping of files (programs/os utilities) along with a startup command (optional)&lt;/div&gt;&lt;div&gt;4. Docker container --&amp;gt; an instance (a running program) of a docker image&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="40" y="870" width="650" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" value="&lt;h1&gt;Useful commands:&lt;/h1&gt;&lt;div&gt;docker pull busybox --&amp;gt; download the image called busybox&lt;/div&gt;&lt;div&gt;docker run busybox cal 2 2021 --&amp;gt; creates a container using the image busybox and runs the cal command with 2 2021 as args&lt;/div&gt;&lt;div&gt;docker images --&amp;gt; lists all the downloaded images&lt;/div&gt;&lt;div&gt;docker image ls&amp;nbsp; &amp;nbsp;--&amp;gt; same as above&lt;/div&gt;&lt;div&gt;docker image rm &amp;lt;image-id&amp;gt;&amp;nbsp; &amp;nbsp; --&amp;gt; removes/deletes the downloaded image&lt;/div&gt;&lt;div&gt;docker ps --&amp;gt; lists all RUNNING docker containers&lt;/div&gt;&lt;div&gt;docker ps -a&amp;nbsp; &amp;nbsp; ---&amp;gt; lists all RUNNING as well as STOPPED constainers&lt;/div&gt;&lt;div&gt;docker start &amp;lt;container-id-or-name&amp;gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; ---&amp;gt; starts a stopped container&lt;/div&gt;&lt;div&gt;docker stop &amp;lt;container-id-or-name&amp;gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; ---&amp;gt; stops gracefully, a running container&lt;br&gt;&lt;/div&gt;&lt;div&gt;docker kill &amp;lt;container-id-or-name&amp;gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; ---&amp;gt; stops immediately, a running container&lt;br&gt;&lt;/div&gt;&lt;div&gt;docker rm &amp;lt;container-id-or-name&amp;gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; ---&amp;gt; removes the cached container&lt;br&gt;&lt;/div&gt;&lt;div&gt;docker container rm &amp;lt;container-id-or-name&amp;gt;&amp;nbsp; &amp;nbsp; ---&amp;gt; same as above&lt;/div&gt;&lt;div&gt;docker system prune --&amp;gt; removes all cached containers, unused networks, dangling images, ...&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="40" y="990" width="735" height="240" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" value="mysql 5.7.34&lt;br&gt;running&lt;br&gt;&lt;br&gt;also has:&lt;br&gt;lots of mysql command files and utilities along with linux utilities" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+                    <mxGeometry x="120" y="520" width="120" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="25" target="23">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" value="terminal" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="30" y="440" width="90" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" value="learnwithvinod/hello-world" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="585" y="670" width="160" height="20" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

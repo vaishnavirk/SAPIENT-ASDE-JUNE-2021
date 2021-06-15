@@ -20,10 +20,13 @@ TOC for day 2:
 -   Docker containers
 -   Creating a docker image
 
-### Useful reads
+### Useful stuffs
 
+-   [Get Started With Maven For Building Java Applications](https://medium.com/edureka/maven-tutorial-2e87a4669faf 'Get Started With Maven For Building Java Applications')
+-   [Complete Jenkins Pipeline Tutorial](https://www.youtube.com/watch?v=7KCS70sCoK0&t=12s 'Complete Jenkins Pipeline Tutorial')
 -   [Docker beginner's guide](https://medium.com/codingthesmartway-com-blog/docker-beginners-guide-part-1-images-containers-6f3507fffc98 'Docker beginners guid')
 -   [Docker Tutorial for Beginners [FULL COURSE in 3 Hours]](https://www.youtube.com/watch?v=3c-iBn73dDE&t=3180s 'Docker Tutorial for Beginners [FULL COURSE in 3 Hours]')
+-   [Everything you need to know about Docker](https://medium.com/@ivjot/docker-2123ced7a85c 'Everything you need to know about Docker')
 
 ### Docker cheatsheet
 

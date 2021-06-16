@@ -29,7 +29,7 @@
 
 -   classes should be open for extension but closed for modification
 
-![Open/Closed Principle](https://miro.medium.com/max/4800/1*0MtFBmm6L2WVM04qCJOZPQ.png 'Open/Closed Principle')
+![](https://codedesignetc.files.wordpress.com/2017/03/ocpcode1.png?w=656)
 
 ### Liskov's substitution Principle
 

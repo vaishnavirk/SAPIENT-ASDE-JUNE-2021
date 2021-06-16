@@ -23,10 +23,6 @@ Acronym coined by Michael Feathers in 2000s
 -   I - Interface segregation Principle
 -   D - Dependency inversion Principle
 
-![](dp1.png)
-![](dp2.png)
-![](dp3.png)
-
 ### Single Responsibility Principle (SRP)
 
 ![](https://media.itkonekt.com/2019/01/Uncle_Bob_400x400.png)

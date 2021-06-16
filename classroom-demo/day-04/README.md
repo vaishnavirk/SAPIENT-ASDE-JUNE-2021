@@ -81,6 +81,20 @@ Solution to this:
 
 ![](ocp.png)
 
+```java
+class Client {
+    public static void main(String[] args){
+        Employee emp1 = new PermanentEmployee();
+        // initialize emp1
+        double bonus1 = emp1.getBonus();
+
+        Employee emp2 = new TempararyEmployee();
+        // initialize emp2
+        double bonus2 = emp2.getBonus();
+    }
+}
+```
+
 ### Liskov's substitution Principle
 
 -   Parent classes should be easily substituted with their child classes without blowing up the application

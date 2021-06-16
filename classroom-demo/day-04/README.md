@@ -41,7 +41,7 @@
 
 ### Interface segregation Principle
 
--   many client specific interfaces are better than one general interface
+-   Many client specific interfaces are better than one general interface
 
 ![Interface segregation Principle
 ](https://miro.medium.com/max/5200/1*2hmyR9L43Vm64MYxj4Y89w.png 'Interface segregation Principle
@@ -54,6 +54,15 @@ In all modular applications there must be some kind of interface that the client
 So, how should we define these interfaces? We could think about our module and expose all the functionalities we want it to offer.
 
 ![](https://cdn.tutsplus.com/net/uploads/2014/01/hugeInterface.png)
+
+This looks like a good start, a great way to define what we want to implement in our module. Or is it? A start like this will lead to one of two possible implementations:
+
+-   A huge Car or Bus class implementing all the methods on the Vehicle interface. Only the sheer dimensions of such classes should tell us to avoid them at all costs.
+-   Or, many small classes like LightsControl, SpeedControl, or RadioCD which are all implementing the whole interface but actually providing something useful only for the parts they implement.
+
+It is obvious that neither solution is acceptable to implement our business logic.
+
+!(https://cdn.tutsplus.com/net/uploads/2014/01/specializedImplementationInterface.png)
 
 ### Dependency inversion Principle
 

@@ -13,11 +13,19 @@
 
 ### SOLID principles
 
+Acronym coined by Michael Feathers in 2000s
+
+![Michael Feathers](https://pbs.twimg.com/profile_images/1169288003950264321/lqTYfvHO_400x400.jpg 'Michale Feathers')
+
 -   S - Single Responsibility Principle (SRP)
 -   O - Open/Closed Principle
 -   L - Liskov's substitution Principle
 -   I - Interface segregation Principle
 -   D - Dependency inversion Principle
+
+![](dp1.png)
+![](dp2.png)
+![](dp3.png)
 
 ### Single Responsibility Principle (SRP)
 
@@ -74,7 +82,9 @@ If not followed:
 -   Breaks the SRP
 -   Maintenance overheads increase on the classes
 
-OCP violation
+OCP violation:
+
+Consider the class Employee:
 
 ```java
 @Data

@@ -1,0 +1,42 @@
+[Wed Jun 16, 2021 10:14:51,658 AM] [main           ] com.sapient.programs.App Hello, World! from Vinod
+[Wed Jun 16, 2021 10:14:51,659 AM] [main           ] com.sapient.programs.App Hello, World! from Vinod
+[Wed Jun 16, 2021 10:14:51,659 AM] [main           ] com.sapient.programs.App Hello, World! from Vinod
+[Wed Jun 16, 2021 10:14:51,660 AM] [main           ] com.sapient.programs.App Hello, World! from Vinod
+[Wed Jun 16, 2021 10:14:51,660 AM] [main           ] com.sapient.programs.App Hello, World! from Vinod
+[Wed Jun 16, 2021 10:17:27,561 AM] [main           ] com.sapient.programs.App Hello, World! from Vinod
+[Wed Jun 16, 2021 10:17:27,563 AM] [main           ] com.sapient.programs.App Hello, World! from Vinod
+[Wed Jun 16, 2021 10:17:27,563 AM] [main           ] com.sapient.programs.App Hello, World! from Vinod
+[Wed Jun 16, 2021 10:17:27,564 AM] [main           ] com.sapient.programs.App Hello, World! from Vinod
+[Wed Jun 16, 2021 10:17:27,564 AM] [main           ] com.sapient.programs.App Hello, World! from Vinod
+[Wed Jun 16, 2021 11:17:55,587 AM] [main           ] com.sapient.programs.CircleApp Start of CircleApp.main()
+[Wed Jun 16, 2021 11:17:55,594 AM] [main           ] com.sapient.programs.CircleApp Are of circle with radius 4.5 is 63.61725123519331
+[Wed Jun 16, 2021 11:17:55,594 AM] [main           ] com.sapient.programs.CircleApp End of CircleApp.main()
+[Wed Jun 16, 2021 11:19:16,172 AM] [main           ] com.sapient.programs.CircleApp Start of CircleApp.main()
+[Wed Jun 16, 2021 11:19:16,177 AM] [main           ] com.sapient.programs.CircleApp Are of circle with radius -4.5 is 63.61725123519331
+[Wed Jun 16, 2021 11:19:16,177 AM] [main           ] com.sapient.programs.CircleApp End of CircleApp.main()
+[Wed Jun 16, 2021 11:25:50,446 AM] [main           ] com.sapient.programs.CircleApp Start of CircleApp.main()
+[Wed Jun 16, 2021 11:39:19,796 AM] [main           ] com.sapient.programs.CircleApp Start of CircleApp.main()
+[Wed Jun 16, 2021 11:39:43,821 AM] [main           ] com.sapient.programs.CircleApp Start of CircleApp.main()
+[Wed Jun 16, 2021 11:39:43,826 AM] [main           ] com.sapient.programs.CircleApp Area of circle with radius 4.5 is 63.61725123519331
+[Wed Jun 16, 2021 11:39:43,827 AM] [main           ] com.sapient.programs.CircleApp End of CircleApp.main()
+[Wed Jun 16, 2021 12:38:05,812 PM] [main           ] com.sapient.entity.PersonDemo Name = Vinod
+[Wed Jun 16, 2021 12:38:05,814 PM] [main           ] com.sapient.entity.PersonDemo Email = vinod@vinod.co
+[Wed Jun 16, 2021 12:43:58,584 PM] [main           ] com.sapient.entity.Person Name = Vinod, Email = vinod@vinod.co
+[Wed Jun 16, 2021 12:47:26,859 PM] [main           ] com.sapient.entity.Person Name = Vinod, Email = vinod@vinod.co
+[Wed Jun 16, 2021 12:47:26,861 PM] [main           ] com.sapient.entity.Person Name = Kumar, Email = kumar@xmpl.com
+[Wed Jun 16, 2021 12:48:19,908 PM] [main           ] com.sapient.entity.Person Name = Vinod, Email = vinod@vinod.co
+[Wed Jun 16, 2021 12:48:19,909 PM] [main           ] com.sapient.entity.Person Name = Kumar, Email = kumar@xmpl.com
+[Wed Jun 16, 2021 12:48:19,910 PM] [main           ] com.sapient.programs.InheritanceDemo p1 = Person(name=Vinod, email=vinod@vinod.co)
+[Wed Jun 16, 2021 12:48:19,910 PM] [main           ] com.sapient.programs.InheritanceDemo s1 = Person(name=Kumar, email=kumar@xmpl.com)
+[Wed Jun 16, 2021 12:51:22,207 PM] [main           ] com.sapient.entity.Person Name = Vinod, Email = vinod@vinod.co
+[Wed Jun 16, 2021 12:51:22,208 PM] [main           ] com.sapient.entity.Person Name = Kumar, Email = kumar@xmpl.com
+[Wed Jun 16, 2021 12:51:22,209 PM] [main           ] com.sapient.programs.InheritanceDemo p1 = Person(name=Vinod, email=vinod@vinod.co)
+[Wed Jun 16, 2021 12:51:22,212 PM] [main           ] com.sapient.programs.InheritanceDemo s1 = Student(rollno=1234, major=Physics, gpa=3.8)
+[Wed Jun 16, 2021 12:53:24,787 PM] [main           ] com.sapient.entity.Person Name = Vinod, Email = vinod@vinod.co
+[Wed Jun 16, 2021 12:53:24,788 PM] [main           ] com.sapient.entity.Person Name = Kumar, Email = kumar@xmpl.com
+[Wed Jun 16, 2021 12:53:24,789 PM] [main           ] com.sapient.programs.InheritanceDemo p1 = Person(name=Vinod, email=vinod@vinod.co)
+[Wed Jun 16, 2021 12:53:24,789 PM] [main           ] com.sapient.programs.InheritanceDemo s1 = Person(name=Kumar, email=kumar@xmpl.com)
+[Wed Jun 16, 2021 12:55:34,948 PM] [main           ] com.sapient.entity.Person Name = Vinod, Email = vinod@vinod.co
+[Wed Jun 16, 2021 12:55:34,949 PM] [main           ] com.sapient.entity.Person Name = Kumar, Email = kumar@xmpl.com
+[Wed Jun 16, 2021 12:55:34,950 PM] [main           ] com.sapient.programs.InheritanceDemo p1 = Person(name=Vinod, email=vinod@vinod.co)
+[Wed Jun 16, 2021 12:55:34,953 PM] [main           ] com.sapient.programs.InheritanceDemo s1 = Student [Person(name=Kumar, email=kumar@xmpl.com), gpa=3.8, major=Physics, rollno=1234]

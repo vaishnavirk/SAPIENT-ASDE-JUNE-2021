@@ -1,5 +1,10 @@
 # SAPIENT ASDE - JUNE, 2021
 
+### Recording:
+
+-   https://zoom.us/rec/share/mI1jSL38Z45-eB19oBzhQO9z4GvLM6Phh-QIpYeKZxCs8buTaIjnLszQfOJDBJYV.k77xR9y6htUeowyY
+-   https://zoom.us/rec/share/CVYAvXRaiUE8TdA6G11QjQ1UWx8-8vwPvF5pdWrRktPEn3BJ8Ad1y7zE1H7OPGks.t0cR54-_ZurI9Oin
+
 ### TOC for day 3:
 
 -   Logging - why and how

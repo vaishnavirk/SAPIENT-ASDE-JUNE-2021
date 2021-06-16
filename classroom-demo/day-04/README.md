@@ -21,10 +21,43 @@
 
 ### Single Responsibility Principle (SRP)
 
--   class should be having one and only one responsibility
+![](https://media.itkonekt.com/2019/01/Uncle_Bob_400x400.png)
+
+-   Introduced by Robert C Martin (Uncle Bob)
+-   Class should have one and only one responsibility
+-   Class should have one reason to change
+-   Every module or class should have responsibility over a single part of functionality provided by the software, and that responsibility should be entirely encapsulated by the class
+
+Motivation:
+
+-   Maintainability
+-   Testability
+-   Flexibility and extensibility
+-   Parallel development
+-   Loose coupling
+
+Key points:
+
+-   Each class and module should focus on a single task
+-   Everything in the class should be related to that single purpose
+-   There canbe many members in the class as long as they are related to the single responsibility
+-   With SRP, classes become smaller and cleaner and the code is less fragile
+
+Consider the class Employee:
+
+![](srp1.png)
+
+But what if we need to save the Employee data to different system? Ex: Database, XML, JSON?
+
+![](srp2.png)
+
+Solution according to SRP:
+
+![](srp3.png)
 
 ### Open/Closed Principle
 
+-   Introduced by Robert C Martin (Uncle Bob)
 -   Classes should be open for extension but closed for modification
 -   Any new functionality should be implemented by adding new classes, attributes and methods, instead of changing the existing ones
 
@@ -95,8 +128,11 @@ class Client {
 }
 ```
 
-### Liskov's substitution Principle
+### Liskov's substitution Principle (LSP)
 
+![](https://news.mit.edu/sites/default/files/styles/news_article__image_gallery/public/images/200903/20091222102310-0_0.jpg?itok=SqUZdhKC)
+
+-   Introduced by Barbara Liskov
 -   Parent classes should be easily substituted with their child classes without blowing up the application
 -   Child classes should never break the parent class' type definitions.
 -   Subtypes must be substitutable for their base types.

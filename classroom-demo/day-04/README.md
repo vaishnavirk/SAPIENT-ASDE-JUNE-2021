@@ -23,6 +23,7 @@
 
 -   class should be having one and only one responsibility
 
+![Single Responsibility Principle](https://miro.medium.com/max/4800/1*P3oONz9Da3Tc1w97fMV73Q.png 'Single Responsibility Principle')
 
 ### Open/Closed Principle
 

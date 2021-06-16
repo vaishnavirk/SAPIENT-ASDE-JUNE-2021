@@ -5,7 +5,7 @@
 -   Creating a docker image
 -   SOLID principles using Java
 -   Use cases and implementation
--   Design patterns overview [Java examples](https://github.com/kayartaya-vinod/2019_12_BOSCH_DESIGN_PATTERNS 'Java examples') [PDF](dp.pdf 'Design Patterns')
+-   Design patterns overview | [Java examples](https://github.com/kayartaya-vinod/2019_12_BOSCH_DESIGN_PATTERNS 'Java examples') | [PDF](dp.pdf 'Design Patterns')
 -   Creational patterns
 -   Structural patterns
 -   Behavioral patterns

@@ -29,14 +29,24 @@
 
 -   classes should be open for extension but closed for modification
 
+![Open/Closed Principle](https://miro.medium.com/max/4800/1*0MtFBmm6L2WVM04qCJOZPQ.png 'Open/Closed Principle')
+
 ### Liskov's substitution Principle
 
 -   parent classes should be easily substituted with their child classes without blowing up the application
+
+![Liskov's substitution Principle](https://miro.medium.com/max/5200/1*yKk2XKJaCLNlDxQMx1r55Q.png "Liskov's substitution Principle")
 
 ### Interface segregation Principle
 
 -   many client specific interfaces are better than one general interface
 
+![Interface segregation Principle
+](https://miro.medium.com/max/5200/1*2hmyR9L43Vm64MYxj4Y89w.png 'Interface segregation Principle
+')
+
 ### Dependency inversion Principle
 
 -   classes should depend on abstraction but not on concretion
+
+![Dependency inversion Principle](https://miro.medium.com/max/5200/1*Qk8tDmjQlyvwKxNTfXIo0Q.png 'Dependency inversion Principle')

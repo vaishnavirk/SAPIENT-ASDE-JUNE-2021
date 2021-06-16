@@ -1,6 +1,11 @@
 # SAPIENT ASDE - JUNE, 2021
 
-TOC for day 2:
+### Recordings:
+
+- []( '')
+- []( '')
+
+### TOC for day 2:
 
 -   Maven overview
 -   Environment setup

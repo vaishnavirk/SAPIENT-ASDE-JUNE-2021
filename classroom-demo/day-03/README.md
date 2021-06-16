@@ -1,6 +1,6 @@
 # SAPIENT ASDE - JUNE, 2021
 
-### Recording:
+### Recordings:
 
 -   [Part 1](https://zoom.us/rec/share/mI1jSL38Z45-eB19oBzhQO9z4GvLM6Phh-QIpYeKZxCs8buTaIjnLszQfOJDBJYV.k77xR9y6htUeowyY 'Part 1')
 -   [Part 2](https://zoom.us/rec/share/CVYAvXRaiUE8TdA6G11QjQ1UWx8-8vwPvF5pdWrRktPEn3BJ8Ad1y7zE1H7OPGks.t0cR54-_ZurI9Oin 'Part 2')

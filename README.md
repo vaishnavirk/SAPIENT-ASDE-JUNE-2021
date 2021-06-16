@@ -3,7 +3,7 @@
 ### Useful stuffs
 
 -   [Git Cheat Sheet - GitLab](https://about.gitlab.com/images/press/git-cheat-sheet.pdf 'Git Cheat Sheet - GitLab')
--   [Markdown cheatsheet](https://github.com/kayartaya-vinod/markdown-here 'Markdown cheatsheet')
+-   [Markdown cheatsheet](https://github.com/kayartaya-vinod/markdown-cheatsheet 'Markdown cheatsheet')
 -   [Get Started With Maven For Building Java Applications](https://medium.com/edureka/maven-tutorial-2e87a4669faf 'Get Started With Maven For Building Java Applications')
 -   [Complete Jenkins Pipeline Tutorial](https://www.youtube.com/watch?v=7KCS70sCoK0&t=12s 'Complete Jenkins Pipeline Tutorial')
 -   [Docker beginner's guide](https://medium.com/codingthesmartway-com-blog/docker-beginners-guide-part-1-images-containers-6f3507fffc98 'Docker beginners guid')

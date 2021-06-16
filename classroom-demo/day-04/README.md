@@ -62,7 +62,7 @@ This looks like a good start, a great way to define what we want to implement in
 
 It is obvious that neither solution is acceptable to implement our business logic.
 
-!(https://cdn.tutsplus.com/net/uploads/2014/01/specializedImplementationInterface.png)
+![](https://cdn.tutsplus.com/net/uploads/2014/01/specializedImplementationInterface.png)
 
 ### Dependency inversion Principle
 

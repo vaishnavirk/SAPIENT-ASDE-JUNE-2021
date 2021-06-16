@@ -5,7 +5,7 @@
 -   Creating a docker image
 -   SOLID principles using Java
 -   Use cases and implementation
--   Design patterns overview
+-   Design patterns overview [Java examples](https://github.com/kayartaya-vinod/2019_12_BOSCH_DESIGN_PATTERNS 'Java examples') [PDF](dp.pdf 'Design Patterns')
 -   Creational patterns
 -   Structural patterns
 -   Behavioral patterns
@@ -57,7 +57,7 @@ Solution according to SRP:
 
 ### Open/Closed Principle
 
--   Introduced by Robert C Martin (Uncle Bob)
+-   Introduced by Robert C Martin
 -   Classes should be open for extension but closed for modification
 -   Any new functionality should be implemented by adding new classes, attributes and methods, instead of changing the existing ones
 
@@ -137,12 +137,42 @@ class Client {
 -   Child classes should never break the parent class' type definitions.
 -   Subtypes must be substitutable for their base types.
 
+Consider:
+
+![](srp4.png)
+
+LSP Violation:
+
+```java
+class CheapPhone implements Phone{
+    public void call(){
+        // ...
+    }
+    public void addContact(){
+        // ...
+    }
+    public void takePhoto(){
+        throw new FeatureNotAvailableException();
+    }
+    public void recordVideo(){
+        throw new FeatureNotAvailableException();
+    }
+}
+
+```
+
+Fixing the LSP violation:
+
+![](srp5.png)
+
 ### Interface segregation Principle
 
+-   Introduced by Robert C Martin
 -   Many client specific interfaces are better than one general interface
 
 ### Dependency inversion Principle
 
+-   Introduced by Robert C Martin
 -   Classes should depend on abstraction but not on concretion
 -   High-level modules should not depend on low-level modules. Both should depend on abstractions.
 -   Abstractions should not depend upon details. Details should depend upon abstractions.

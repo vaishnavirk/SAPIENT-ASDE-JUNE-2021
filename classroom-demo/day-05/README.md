@@ -10,6 +10,10 @@
 -   Cucumber
 -   Demo using Java + Cucumber
 
+## Assignments:
+
+For each of the assignments given below, implement the logic for each of the functions given and use the BDD (Cucumber) to test the functionalities.
+
 ### Assignment 1
 
 ```java

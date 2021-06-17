@@ -2,7 +2,7 @@
 
 ### Recordings:
 
--   []('https://zoom.us/rec/share/qWzcUF6tFNAcm97LWjgfBCT1Lead3fLc0j-oeDaU3Zmowp1Ck0WtdJdfuW2Cpz9h.a_-0CuWgr63ipT6b')
+-   [Day 2 zoom recording]('https://zoom.us/rec/share/qWzcUF6tFNAcm97LWjgfBCT1Lead3fLc0j-oeDaU3Zmowp1Ck0WtdJdfuW2Cpz9h.a_-0CuWgr63ipT6b')
 
 ### TOC for day 2:
 

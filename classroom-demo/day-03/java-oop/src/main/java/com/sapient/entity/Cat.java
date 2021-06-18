@@ -7,7 +7,11 @@ public class Cat extends Animal { // Cat IS-A Animal
 
     String info = "I' am a nice cat!";
 
+    public void setInfo(String info){
+        this.info = info;
+    }
+
     public void whoAmI() {
-        log.debug(info);
+        log.debug(this.info);
     }
 }

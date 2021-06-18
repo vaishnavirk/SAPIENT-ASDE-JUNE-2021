@@ -26,5 +26,16 @@ public class AnimalApp {
         processAnimal(d1);
         processAnimal(new Lion());
 
+        Animal ani;
+        Cat cat = new Cat();
+        Dog dog = new Dog();
+
+        ani = cat; // upcasting; implicitly done
+
+        cat = (Cat) ani; // downcasting; has to be explicit
+        cat.whoAmI();
+
+        dog = (Dog) ani;
+        dog.whoAmI();
     }
 }

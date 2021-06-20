@@ -24,8 +24,22 @@ Note: This exercise is based on the HR database.
 
 Before you begin,
 
+-   Start a new docker container for MySQL 8
+    -   `docker run -d --name=mysql8server -p 3306:3306 -v mysql8volume:/var/lib/mysql -e MYSQL_ROOT_PASSWORD=Welcome#123 mysql:latest`
 -   Download the script file HR.sql
--   Import the same into H2 database using the `runscript from 'path-to-file'` command
+-   Open a terminal in the location of HR.sql
+-   Copy the HR.sql file to the docker container's filesystem - `docker cp ./HR.sql mysql8server:/HR.sql`
+-   Connect to the MySQL server running inside the docker container - `docker exec -it mysql8server mysql -uroot -pWelcome#123`
+-   Import the same into MySQL database - `source /HR.sql`. This will create a new database called TRAININGDB and creates the following tables:
+    -   COUNTRIES
+    -   DEPARTMENTS
+    -   EMPLOYEES
+    -   JOBS
+    -   JOB_HISTORY
+    -   LOCATIONS
+    -   REGIONS
+-   To check the list of tables - SHOW TABLES;
+-   To check the current database name - SELECT DATABASE();
 -   Get yourself familiar with the table structure.
 
 ## Exercise questions

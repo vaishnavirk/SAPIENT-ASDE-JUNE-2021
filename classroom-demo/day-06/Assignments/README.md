@@ -1,5 +1,7 @@
 # Assignment on ER diagrams
 
+### Part 1:
+
 "Blue Yu" is a new brand of mobile phones and accessories. The company wants to setup a web and mobile application to showcase and sell their products. In this regard, you are to create the required database tables.
 
 There are several products in few categories. The categories are:
@@ -17,6 +19,10 @@ There are several products in few categories. The categories are:
 The application allows customers to browse, choose and buy products. A customer may place an order, which consists of one or more products of varying quantity. Ocassionally, the company releases coupon codes, against which the customer may get good discounts. The coupon code is entered by the customer during the checkout process. The customers optionally re-visit the application to review the product they may have used and give rating and feedback on the same.
 
 Identify the various entities, attributes and the relationships between entities from the above case study. Create proper ER diagrams representing the same.
+
+### Part 2:
+
+Convert the ER diagrams into a group of tables with all the columns, primary keys and foreign keys. Also, for each of the columns, define appropriate types and sizes.
 
 # SQL SELECT query exercies
 

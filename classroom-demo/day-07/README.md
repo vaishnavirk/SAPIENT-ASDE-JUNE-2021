@@ -9,6 +9,8 @@
 -   Using Mongodb drivers in Java
 -   Examples of Save+Retrieve docs from Java
 
+![](./jpa-mongodb-demo/concepts.dio.png 'Concepts')
+
 ## Assignment
 
 #### Tables from the ER diagram created in day 6 assignment

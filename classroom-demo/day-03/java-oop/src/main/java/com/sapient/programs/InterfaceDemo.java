@@ -9,7 +9,7 @@ import lombok.extern.slf4j.Slf4j;
 @Slf4j
 public class InterfaceDemo {
     public static void main(String[] args) {
-        Triangle s1;
+        Shape s1;
         double area;
 
         s1 = new Triangle(12, 34);

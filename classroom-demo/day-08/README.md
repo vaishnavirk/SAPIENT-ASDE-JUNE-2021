@@ -23,7 +23,7 @@
 
 -   Create an interface called ProductDao and an implementation class called ProductDaoJpaImpl
 
-![](./images/dao.png)
+![](./images/dao1.png)
 
 ![](images/war-structure.003.jpeg)
 ![](images/war-structure.004.jpeg)

@@ -29,4 +29,4 @@
 
 `git clone https://github.com/kayartaya-vinod/ps-asde-day-06.git`
 
-![](./concepts.dio.png 'Concepts')
+![](./concepts1.dio.png 'Concepts')

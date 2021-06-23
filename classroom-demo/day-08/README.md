@@ -10,6 +10,8 @@
 -   Handling client requests
 -   Parameters/headers/cookies
 
+![](./concepts.dio.png 'concepts')
+
 ### Assignment
 
 #### Self study - @OneToMany @ManyToOne annotations in JPA

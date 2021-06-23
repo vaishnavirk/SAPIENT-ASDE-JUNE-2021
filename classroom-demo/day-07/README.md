@@ -9,7 +9,9 @@
 -   Using Mongodb drivers in Java
 -   Examples of Save+Retrieve docs from Java
 
-## Tables for day 6 assignment (ER Diagram)
+## Assignment
+
+#### Tables from the ER diagram created in day 6 assignment
 
 -   Create a database schema diagram for the following tables
     -   customers (customer_id, name, street, city, state, pincode, country, email, phone, password)

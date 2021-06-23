@@ -11,6 +11,8 @@
 -   Behavioral patterns
 -   Use cases and implementation (most useful patterns only)
 
+![](java-docker-demo/concepts.dio.png)
+
 ### SOLID principles
 
 Acronym coined by Michael Feathers in 2000s

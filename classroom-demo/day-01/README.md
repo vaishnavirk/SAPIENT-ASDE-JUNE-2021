@@ -15,3 +15,5 @@
 -   Tagging
 -   Branches
 -   Merging
+
+![](./cicd-git.dio.png)

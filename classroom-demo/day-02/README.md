@@ -19,3 +19,5 @@
 -   Docker images
 -   Docker containers
 -   Creating a docker image
+
+![](maven-docker.dio.png)

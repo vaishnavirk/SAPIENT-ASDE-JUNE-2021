@@ -3,6 +3,7 @@ package com.sapient.web;
 import java.io.IOException;
 import java.io.PrintWriter;
 
+import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -15,13 +16,17 @@ public class HelloServlet extends HttpServlet {
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        resp.setContentType("text/html"); // setting MIME type
+        // resp.setContentType("text/html"); // setting MIME type
 
-        PrintWriter out = resp.getWriter();
-        out.println("<h1>Hello from Servlet</h1>");
-        out.println("<hr />");
-        out.println("<p>Created by Vinod</p>");
-        out.close();
+        // PrintWriter out = resp.getWriter();
+        // out.println("<h1>Hello from Servlet</h1>");
+        // out.println("<hr />");
+        // out.println("<p>Created by Vinod</p>");
+
+        // out.close();
+        RequestDispatcher rd = req.getRequestDispatcher("/hello.jsp");
+        req.setAttribute("name", "Vinod");
+        rd.forward(req, resp);
     }
 
 }

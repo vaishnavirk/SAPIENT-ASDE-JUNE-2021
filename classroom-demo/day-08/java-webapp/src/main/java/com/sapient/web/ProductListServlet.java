@@ -4,6 +4,7 @@ import java.io.IOException;
 import java.io.PrintWriter;
 import java.util.List;
 
+import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -19,18 +20,26 @@ public class ProductListServlet extends HttpServlet {
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        resp.setContentType("text/plain");
-        PrintWriter out = resp.getWriter();
+
+        // A web controller typicall has the following responsibilities:
+        // 1. Read any inputs from the request (query/matrix/path parameters, headers,
+        // cookies, payload)
+        // 2. Get a suitable service/dao object and call appropriate methods
+        // 3. Store the model data in a place which is accessible to JSP (scopes:
+        // request, session, application)
+        // 4. Redirect the request to the JSP for presenting the model data
 
         ProductDao dao = new ProductDaoJpaImpl(); // ideally, get this from a factory
         try {
             List<Product> list = dao.getAllProducts();
-            // generally we pass this "list" to a JSP (view) for presenting.
-            out.println(list);
+            req.setAttribute("products", list);
+            req.setAttribute("title", "List of products");
+            RequestDispatcher rd = req.getRequestDispatcher("/show-products.jsp");
+            rd.forward(req, resp);
+
         } catch (Exception e) {
             throw new ServletException(e); // exception funnelling
         }
-        out.close();
     }
 
 }

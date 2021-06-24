@@ -19,6 +19,7 @@ Now that your Maven Jar project is ready, run the `mvn clean install` command to
 
 -   Add the necessary dependencies
     -   lombok, slf4j, mysql, servlet-api, jsp-api, jstl api/impl
+    -   The newly installed artifact consisting of the entity and DAO interfaces/classes
 -   The application should have following stories:
     -   Should list the available products (name, description)
     -   Should show the details of a single selected product (all details including category and pictures)

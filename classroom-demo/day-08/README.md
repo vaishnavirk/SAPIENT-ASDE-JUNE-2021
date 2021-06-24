@@ -12,6 +12,8 @@
 
 ![](./concepts.dio.png 'concepts')
 
+![](./java-webapp/concepts.dio.png 'concepts')
+
 ### Assignment
 
 #### Self study - @OneToMany @ManyToOne annotations in JPA

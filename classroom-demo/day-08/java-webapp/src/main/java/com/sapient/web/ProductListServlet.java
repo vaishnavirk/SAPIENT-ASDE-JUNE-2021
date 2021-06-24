@@ -1,7 +1,6 @@
 package com.sapient.web;
 
 import java.io.IOException;
-import java.io.PrintWriter;
 import java.util.List;
 
 import javax.servlet.RequestDispatcher;
@@ -11,8 +10,8 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+import com.sapient.dao.DaoFactory;
 import com.sapient.dao.ProductDao;
-import com.sapient.dao.ProductDaoJpaImpl;
 import com.sapient.entity.Product;
 
 @WebServlet(urlPatterns = { "/product-list", "/products" })
@@ -29,7 +28,7 @@ public class ProductListServlet extends HttpServlet {
         // request, session, application)
         // 4. Redirect the request to the JSP for presenting the model data
 
-        ProductDao dao = new ProductDaoJpaImpl(); // ideally, get this from a factory
+        ProductDao dao = DaoFactory.getProductDao();
         try {
             List<Product> list = dao.getAllProducts();
             req.setAttribute("products", list);

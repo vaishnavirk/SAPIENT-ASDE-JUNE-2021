@@ -28,6 +28,5 @@ Now that your Maven Jar project is ready, run the `mvn clean install` command to
     -   Should add new picture path to existing product
     -   Should delete a picture (path) of an existing product
     -   Should all editing of product details
-    -   Should allow search of products by text (name/description, partial)
     -   Should allow search of products by range of price
 -   The application should have a nice homepage with navigational options for all the stories listed above

@@ -80,7 +80,6 @@ Now that your Maven Jar project is ready, run the `mvn clean install` command to
     -   Should list the available products (name, description)
     -   Should show the details of a single selected product (all details including category and pictures)
     -   Should add a new product
-    -   Should add a new category
     -   Should add new picture path to existing product
     -   Should delete a picture (path) of an existing product
     -   Should all editing of product details
